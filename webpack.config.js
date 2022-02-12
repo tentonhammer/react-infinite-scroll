@@ -33,6 +33,11 @@ module.exports = {
             template: path.resolve(__dirname, 'public/index.html'),
             filename: "index.html"
         }),
-        "babel-plugin-styled-components"
+        // [
+        //     "babel-plugin-styled-components",
+        //     {
+        //         "ssr": false
+        //     }
+        // ]
     ],
 }
