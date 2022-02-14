@@ -7,9 +7,9 @@ const Container = styled.div`
     padding: 0 15px;
   }
   @media (min-width: 1440px) {
-    width: 80%;
+    width: 1440px;
+    padding: 0 30px;
   }
-  
 `;
 
 export default Container;
